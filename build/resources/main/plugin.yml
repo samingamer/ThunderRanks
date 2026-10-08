@@ -1,0 +1,17 @@
+name: ThunderRanks
+version: 1.0.0
+main: me.samin.thunderranks.ThunderRanks
+api-version: '1.21'
+author: Samin
+description: A simple custom rank plugin for Paper servers.
+
+commands:
+  rank:
+    description: Manage your ThunderRanks rank.
+    usage: /rank <set|reset|help>
+    aliases: [ranks]
+
+permissions:
+  thunderranks.admin:
+    description: Allows managing any player's rank.
+    default: op
